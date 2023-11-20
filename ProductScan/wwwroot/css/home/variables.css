@@ -1,0 +1,17 @@
+﻿:root {
+    --text-color: rgb(240, 240, 240);
+    --border-color: rgb(210, 210, 210);
+    --red: rgb(226, 71, 51);
+    --red-alpha: rgba(226, 71, 51, 0.5);
+    --background-main: rgb(25, 25, 25);
+    --background-main-alpha: rgba(25, 25, 25, 0.5);
+    --background-second: rgb(35, 35, 35);
+    --blue: rgb(51, 92, 226);
+    --blue-disabled: rgb(34, 54, 121);
+    --blue-alpha: rgba(57, 103, 255, 0.5);
+    --blue-second: rgb(57, 103, 255);
+    --green: rgb(51, 226, 89);
+    --green-alpha: rgba(51, 226, 89, 0.5);
+    --gray: rgb(99, 99, 99);
+    --gray-alpha: rgba(99, 99, 99, 0.5);
+}

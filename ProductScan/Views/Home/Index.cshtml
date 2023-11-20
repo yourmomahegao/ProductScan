@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Application";
+
+    // Adding additional styles
+    ViewData["AdditionalStyles"] = new List<string> {
+        "~/css/home/variables.css",
+        "~/css/home/styles.css",
+    };
+
+    // Adding additional scripts
+    ViewData["AdditionalScripts"] = new List<string> {
+        "~/js/home/redirects.js",
+        "~/js/home/start-info.js",
+        "~/js/home/customers-load.js",
+        "~/js/home/save-variables.js",
+        "~/js/home/model-update.js",
+        "~/js/home/user-auth.js",
+        "~/js/home/apply-scan-info-toggle.js",
+        "~/js/home/do-scan.js",
+        "~/js/home/apply-scan.js",
+    };
+}
+
+<div class="page">
+    <div class="init-container hidden">
+        <label for="fas-lines">Линия</label>
+        <select id="fas-lines">
+            @foreach (var fasLine in ViewBag.FasLines)
+            {
+                <option id="@fasLine.LineID">@fasLine.LineName</option>
+            }
+        </select>
+
+        <label for="steps-scan">Шаг</label>
+        <select id="steps-scan">
+            @foreach (var stepScan in ViewBag.StepsScan)
+            {
+                <option id="@stepScan.ID">@stepScan.StepName</option>
+            }
+        </select>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="save-rfid-check" class="custom-checkbox-checkbox">
+            <label class="custom-checkbox">
+              <span class="custom-checkbox-check" id=""></span> Сохранять RFID пользователей
+            </label>    
+        </div>
+        
+        <input id="logout-time" class="hidden" placeholder="Время логаута (сек)" type="text"
+               oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+
+        <button id="save-init-config">Сохранить</button>
+    </div>
+
+    <div class="start-container hidden">
+        <div class="start-info">
+            <label id="start-info-label" for="line-info">Краткая информация</label>
+            <div id="line-info">Линия: <span>Не определено</span></div>
+            <div id="step-info">Шаг: <span>Не определено</span></div>
+            <div id="model-info">Модель: <span>Не определено</span></div>
+            <div id="fas-number-format2">Формат номера: <span>Не определено</span></div>
+        </div>
+
+        <label for="customers">Заказчик</label>
+        <select id="customers">
+            @foreach (var customer in ViewBag.Customers)
+            {
+                <option id="@customer.ID">@customer.СustomerName</option>
+            }
+        </select>
+
+        <label for="contract-lots">Лот</label>
+        <select id="contract-lots"></select>
+
+        <button id="start-scan">Перейти к сканированию</button>
+    </div>
+
+    <div class="work-container hidden">
+        <div id="serial-number-label"></div>
+
+        <input id="serial-number" placeholder="Серийный номер" />
+        <button id="do-scan">Сканировать</button>
+    </div>
+
+    <div class="apply-scan-container hidden">
+        <div id="apply-scan-label"></div>
+
+        <div class="apply-scan-info">
+            <label id="start-info-label" for="line-info">Прошлое сканирование</label>
+            <div id="pcbid-info">PCBID: <span>Не определено</span></div>
+            <div id="content-info">Контент: <span>Не определено</span></div>
+            <div id="step-name-info">Шаг: <span>Не определено</span></div>
+            <div id="result-info">Результат: <span>Не определено</span></div>
+            <div id="username-info">Пользователь: <span>Не определено</span></div>
+            <div id="step-date-info">Дата: <span>Не определено</span></div>
+            <div id="error-code-info">Код ошибки: <span>Не определено</span></div>
+        </div>
+
+        <div class="apply-scan-buttons">
+            <button id="pass-scan">PASS</button>
+            <button id="fail-scan">FAIL</button>
+        </div>
+
+        <button id="back-scan">Назад</button>
+    </div>
+
+    <div class="badge-splashscreen hidden">
+        <div id="badge-label">Отсканируйте свой бейдж</div>
+
+        <div id="badge-error-label"></div>
+        <div class="current-user" style="display: none;"></div>
+        
+        <input id="badge-number" type="password" placeholder="" />
+    </div>
+</div>

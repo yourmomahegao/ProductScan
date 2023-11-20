@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProductScan</title>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    @{
+        // Loading additional scripts
+        List<string> AdditionalScripts = ViewData["AdditionalScripts"] as List<string>;
+
+        // Checking is scripts are valid
+        if (AdditionalScripts != null)
+        {
+            @foreach (var scriptPath in AdditionalScripts)
+            {
+                <script src="@Url.Content(scriptPath)"></script>
+            }
+        }
+    }
+
+    @{
+        // Loading additional styles
+        List<string> AdditionalStyles = ViewData["AdditionalStyles"] as List<string>;
+
+        // Checking is styles are valid
+        if (AdditionalStyles != null)
+        {
+            @foreach (var stylePath in AdditionalStyles)
+            {
+                <link rel="stylesheet" href="@Url.Content(stylePath)" />
+            }
+        }
+    }
+
+</head>
+<body>
+    @RenderBody()
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
