@@ -21,40 +21,144 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply-scan-info-toggle.js",
-      "PackagePath": "staticwebassets\\js\\home\\apply-scan-info-toggle.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply-scan.js",
-      "PackagePath": "staticwebassets\\js\\home\\apply-scan.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\customers-load.js",
-      "PackagePath": "staticwebassets\\js\\home\\customers-load.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\do-scan.js",
-      "PackagePath": "staticwebassets\\js\\home\\do-scan.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\model-update.js",
-      "PackagePath": "staticwebassets\\js\\home\\model-update.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\fonts\\static\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\static\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply_scan\\apply-scan-infos.js",
+      "PackagePath": "staticwebassets\\js\\home\\apply_scan\\apply-scan-infos.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply_scan\\apply-scan.js",
+      "PackagePath": "staticwebassets\\js\\home\\apply_scan\\apply-scan.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply_scan\\logs-info.js",
+      "PackagePath": "staticwebassets\\js\\home\\apply_scan\\logs-info.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply_scan\\scan-anyway.js",
+      "PackagePath": "staticwebassets\\js\\home\\apply_scan\\scan-anyway.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\apply_scan\\scan-duplicate.js",
+      "PackagePath": "staticwebassets\\js\\home\\apply_scan\\scan-duplicate.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\badge\\user-auth.js",
+      "PackagePath": "staticwebassets\\js\\home\\badge\\user-auth.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\config.js",
+      "PackagePath": "staticwebassets\\js\\home\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\init\\save-variables.js",
+      "PackagePath": "staticwebassets\\js\\home\\init\\save-variables.js"
     },
     {
       "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\redirects.js",
       "PackagePath": "staticwebassets\\js\\home\\redirects.js"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\save-variables.js",
-      "PackagePath": "staticwebassets\\js\\home\\save-variables.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\start\\customers-load.js",
+      "PackagePath": "staticwebassets\\js\\home\\start\\customers-load.js"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\start-info.js",
-      "PackagePath": "staticwebassets\\js\\home\\start-info.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\start\\model-update.js",
+      "PackagePath": "staticwebassets\\js\\home\\start\\model-update.js"
     },
     {
-      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\user-auth.js",
-      "PackagePath": "staticwebassets\\js\\home\\user-auth.js"
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\start\\start-info.js",
+      "PackagePath": "staticwebassets\\js\\home\\start\\start-info.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\work\\do-scan.js",
+      "PackagePath": "staticwebassets\\js\\home\\work\\do-scan.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\work\\update-test-results.js",
+      "PackagePath": "staticwebassets\\js\\home\\work\\update-test-results.js"
+    },
+    {
+      "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\home\\work\\work-container-info.js",
+      "PackagePath": "staticwebassets\\js\\home\\work\\work-container-info.js"
     },
     {
       "Id": "C:\\Users\\p.podtereba\\source\\repos\\ProductScan\\ProductScan\\wwwroot\\js\\site.js",

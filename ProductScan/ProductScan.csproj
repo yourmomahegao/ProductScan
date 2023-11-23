@@ -23,4 +23,8 @@
     <ProjectReference Include="D:\Projects\dbModels\dbModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
 </Project>

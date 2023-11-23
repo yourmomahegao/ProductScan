@@ -9,15 +9,21 @@
 
     // Adding additional scripts
     ViewData["AdditionalScripts"] = new List<string> {
+        "~/js/home/config.js",
         "~/js/home/redirects.js",
-        "~/js/home/start-info.js",
-        "~/js/home/customers-load.js",
-        "~/js/home/save-variables.js",
-        "~/js/home/model-update.js",
-        "~/js/home/user-auth.js",
-        "~/js/home/apply-scan-info-toggle.js",
-        "~/js/home/do-scan.js",
-        "~/js/home/apply-scan.js",
+        "~/js/home/start/start-info.js",
+        "~/js/home/start/customers-load.js",
+        "~/js/home/init/save-variables.js",
+        "~/js/home/start/model-update.js",
+        "~/js/home/badge/user-auth.js",
+        "~/js/home/apply_scan/apply-scan-infos.js",
+        "~/js/home/apply_scan/scan-anyway.js",
+        "~/js/home/apply_scan/scan-duplicate.js",
+        "~/js/home/apply_scan/logs-info.js",
+        "~/js/home/work/do-scan.js",
+        "~/js/home/apply_scan/apply-scan.js",
+        "~/js/home/work/work-container-info.js",
+        "~/js/home/work/update-test-results.js",
     };
 }
 
@@ -76,6 +82,29 @@
     </div>
 
     <div class="work-container hidden">
+        <div class="hotkeys-help">
+            <div id="hotkey-help">Нажмите <span>[I]</span>, чтобы увидеть информацию о лоте</div>
+        </div>
+
+        <div class="scan-anyway-container hidden">
+            <div id="scan-anyway-label"><span id="error"></span>, <br>отсканировать в любом случае?</div>
+            <button id="scan-anyway-button">Подтвердить</button>
+            <button id="scan-anyway-deny-button">Скрыть</button>
+        </div>
+
+        <div class="scan-duplicate-container hidden">
+            <div id="scan-duplicate-label"><span id="error"></span>, <br>отсканировать в любом случае?</div>
+            <button id="scan-duplicate-button">Подтвердить</button>
+            <button id="scan-duplicate-deny-button">Скрыть</button>
+        </div>
+
+        <div class="test-results-counter-container hidden">
+            <label id="test-results-info-label" for="pass-counter-info">Информация о лоте</label>
+            <div id="pass-counter-info"><span id="label">Прошло тестирование: </span><span id="value">0</span> шт.</div>
+            <div id="fail-counter-info"><span id="label">Не прошло тестирование: </span><span id="value">0</span> шт.</div>
+            <div id="duplicates-counter-info"><span id="label">Дубликаты: </span><span id="value">0</span> шт.</div>
+        </div>
+
         <div id="serial-number-label"></div>
 
         <input id="serial-number" placeholder="Серийный номер" />
@@ -83,9 +112,14 @@
     </div>
 
     <div class="apply-scan-container hidden">
+        <div class="hotkeys-help">
+            <div id="hotkey-help">Нажмите <span>[I]</span>, чтобы увидеть прошлое сканирование</div>
+            <div id="hotkey-help">Нажмите <span>[L]</span>, чтобы увидеть последние движения</div>
+        </div>
+        
         <div id="apply-scan-label"></div>
 
-        <div class="apply-scan-info">
+        <div class="apply-scan-info hidden">
             <label id="start-info-label" for="line-info">Прошлое сканирование</label>
             <div id="pcbid-info">PCBID: <span>Не определено</span></div>
             <div id="content-info">Контент: <span>Не определено</span></div>
@@ -94,6 +128,19 @@
             <div id="username-info">Пользователь: <span>Не определено</span></div>
             <div id="step-date-info">Дата: <span>Не определено</span></div>
             <div id="error-code-info">Код ошибки: <span>Не определено</span></div>
+        </div>
+
+        <div class="last-logs-container hidden">
+            <label id="last-logs-info-label" for="last-logs-info">Последние записанные движения</label>
+
+            <table id="last-logs-info">
+            </table>
+        </div>
+
+        <div class="apply-fail-scan-container hidden">
+            <label id="fail-scan-error-codes-label" for="fail-scan-error-codes">Код ошибки</label>
+            <select id="fail-scan-error-codes"></select>
+            <button id="apply-fail-scan">Подтвердить</button>
         </div>
 
         <div class="apply-scan-buttons">
@@ -111,5 +158,14 @@
         <div class="current-user" style="display: none;"></div>
         
         <input id="badge-number" type="password" placeholder="" />
+    </div>
+    
+    <div class="admin-badge-splashscreen hidden">
+        <div id="admin-userid" style="display: none;"></div>
+        <div id="admin-username" style="display: none;"></div>
+
+        <div id="admin-badge-label">Отсканируйте бейдж <span>администратора</span></div>
+        <div id="admin-badge-error-label"></div>
+        <input id="admin-badge-number" type="password" placeholder="" />
     </div>
 </div>
